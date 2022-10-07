@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20159" started-at="2022-09-24T07:51:58Z" finished-at="2022-09-24T07:52:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20159" started-at="2022-09-24T07:51:58Z" finished-at="2022-09-24T07:52:18Z">
+      <class name="org.rahulshettyacademy.eCommerce_tc_2">
+        <test-method status="FAIL" signature="ConfigureAppium()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@50b472aa]" name="ConfigureAppium" is-config="true" duration-ms="20106" started-at="2022-09-24T07:51:58Z" finished-at="2022-09-24T07:52:18Z">
+          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
+            <message>
+              <![CDATA[The local appium server has not been started. The given Node.js executable: /usr/local/bin/node Arguments: [/usr/local/lib/node_modules/appium/build/lib/main.js, --port, 4723, --address, 0.0.0.0] 
+Process output: info Appium Setting NODE_PATH to '/usr/local/lib/node_modules'
+[35m[Appium][39m [31mspawn npm ENOENT[39m
+
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: The local appium server has not been started. The given Node.js executable: /usr/local/bin/node Arguments: [/usr/local/lib/node_modules/appium/build/lib/main.js, --port, 4723, --address, 0.0.0.0] 
+Process output: info Appium Setting NODE_PATH to '/usr/local/lib/node_modules'
+[35m[Appium][39m [31mspawn npm ENOENT[39m
+
+
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:190)
+at org.rahulshettyacademy.utils.AppiumUtils.startAppiumServer(AppiumUtils.java:56)
+at org.rahulshettyacademy.TestUtils.AndroidBaseTest.ConfigureAppium(AndroidBaseTest.java:53)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20006 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:89)
+at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:155)
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:177)
+... 28 more
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:87)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method status="SKIP" signature="preSetup()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@50b472aa]" name="preSetup" is-config="true" duration-ms="0" started-at="2022-09-24T07:52:18Z" finished-at="2022-09-24T07:52:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="SKIP" signature="FillForm_ErrorValidation()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@50b472aa]" name="FillForm_ErrorValidation" duration-ms="0" started-at="2022-09-24T07:52:18Z" finished-at="2022-09-24T07:52:18Z">
+          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
+            <message>
+              <![CDATA[The local appium server has not been started. The given Node.js executable: /usr/local/bin/node Arguments: [/usr/local/lib/node_modules/appium/build/lib/main.js, --port, 4723, --address, 0.0.0.0] 
+Process output: info Appium Setting NODE_PATH to '/usr/local/lib/node_modules'
+[35m[Appium][39m [31mspawn npm ENOENT[39m
+
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: The local appium server has not been started. The given Node.js executable: /usr/local/bin/node Arguments: [/usr/local/lib/node_modules/appium/build/lib/main.js, --port, 4723, --address, 0.0.0.0] 
+Process output: info Appium Setting NODE_PATH to '/usr/local/lib/node_modules'
+[35m[Appium][39m [31mspawn npm ENOENT[39m
+
+
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:190)
+at org.rahulshettyacademy.utils.AppiumUtils.startAppiumServer(AppiumUtils.java:56)
+at org.rahulshettyacademy.TestUtils.AndroidBaseTest.ConfigureAppium(AndroidBaseTest.java:53)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20006 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:89)
+at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:155)
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:177)
+... 28 more
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:87)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_ErrorValidation -->
+        <test-method status="SKIP" signature="preSetup()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@50b472aa]" name="preSetup" is-config="true" duration-ms="0" started-at="2022-09-24T07:52:18Z" finished-at="2022-09-24T07:52:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="SKIP" signature="FillForm_PositiveFlow()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@50b472aa]" name="FillForm_PositiveFlow" duration-ms="0" started-at="2022-09-24T07:52:18Z" finished-at="2022-09-24T07:52:18Z">
+          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
+            <message>
+              <![CDATA[The local appium server has not been started. The given Node.js executable: /usr/local/bin/node Arguments: [/usr/local/lib/node_modules/appium/build/lib/main.js, --port, 4723, --address, 0.0.0.0] 
+Process output: info Appium Setting NODE_PATH to '/usr/local/lib/node_modules'
+[35m[Appium][39m [31mspawn npm ENOENT[39m
+
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: The local appium server has not been started. The given Node.js executable: /usr/local/bin/node Arguments: [/usr/local/lib/node_modules/appium/build/lib/main.js, --port, 4723, --address, 0.0.0.0] 
+Process output: info Appium Setting NODE_PATH to '/usr/local/lib/node_modules'
+[35m[Appium][39m [31mspawn npm ENOENT[39m
+
+
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:190)
+at org.rahulshettyacademy.utils.AppiumUtils.startAppiumServer(AppiumUtils.java:56)
+at org.rahulshettyacademy.TestUtils.AndroidBaseTest.ConfigureAppium(AndroidBaseTest.java:53)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20006 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:89)
+at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:155)
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:177)
+... 28 more
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:87)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_PositiveFlow -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@50b472aa]" name="tearDown" is-config="true" duration-ms="15" started-at="2022-09-24T07:52:18Z" finished-at="2022-09-24T07:52:18Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.rahulshettyacademy.TestUtils.AndroidBaseTest.tearDown(AndroidBaseTest.java:74)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rahulshettyacademy.eCommerce_tc_2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
